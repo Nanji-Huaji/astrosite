@@ -1,40 +1,36 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 欢迎来到信通院混子手册
+description: 让想当混子的人更轻松一些！
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 让想当混子的人更轻松一些！
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: 查看手册
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+#    - text: Read the Starlight docs
+#      link: https://starlight.astro.build
+#      icon: external
+#      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 探索内容
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="快速入门" icon="rocket">
+		了解手册基本结构，开始您的轻松之旅。
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="摸鱼指南" icon="document">
+		探索各种实用的摸鱼技巧和生存法则。
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="常用工具" icon="setting">
+		工欲善其事，必先利其器。
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="贡献内容" icon="open-book">
+		有好点子？欢迎补充完善这本手册。
 	</Card>
 </CardGrid>
